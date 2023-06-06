@@ -27,7 +27,7 @@ public class Main {
 
                 System.out.println("Deposito completato.");
 
-                System.out.println(myConto.getSaldoConto());
+                System.out.println("Saldo corrente: " + myConto.getSaldoConto());
 
             } else if (choice == 2) {
 

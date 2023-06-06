@@ -39,7 +39,7 @@ public class Prodotto {
     }
 
     public String getFullName() {
-        return this.name + "-" + getSerialCode();
+        return this.name + "-" + this.serialCode;
     }
 
     public String getName() {
